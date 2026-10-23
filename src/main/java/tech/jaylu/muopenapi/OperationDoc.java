@@ -1,4 +1,4 @@
-package io.github.jaylu.muopenapi;
+package tech.jaylu.muopenapi;
 
 import io.muserver.Method;
 import io.muserver.openapi.HeaderObject;

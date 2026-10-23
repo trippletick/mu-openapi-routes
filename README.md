@@ -34,7 +34,7 @@ MuServer server = MuServerBuilder.httpServer()
     .start();
 ```
 
-See `src/test/java/io/github/jaylu/muopenapi/SampleApi.java` for a complete example covering GET, POST, PUT,
+See `src/test/java/tech/jaylu/muopenapi/SampleApi.java` for a complete example covering GET, POST, PUT,
 PATCH and DELETE, query, path and header parameters, and JSON, text and binary bodies. Running the tests writes
 the generated document to `target/sample-openapi.json`.
 
@@ -216,6 +216,9 @@ Release notes are on the [GitHub releases page](https://github.com/trippletick/m
 [RELEASE.md](RELEASE.md) for how releases are made.
 
 It depends on `io.muserver:mu-server` 2.3.2 or later in the 2.x line.
+
+From the next release the classes are in the `tech.jaylu.muopenapi` package, matching the group ID. Version 0.1.0
+has them in `io.github.jaylu.muopenapi`. Nothing else changed, so upgrading only means updating imports.
 
 ## License
 

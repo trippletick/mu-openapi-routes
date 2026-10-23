@@ -1,4 +1,4 @@
-package io.github.jaylu.muopenapi;
+package tech.jaylu.muopenapi;
 
 import io.muserver.openapi.SchemaObject;
 import org.junit.jupiter.api.Test;

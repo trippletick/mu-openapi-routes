@@ -1,4 +1,4 @@
-package io.github.jaylu.muopenapi;
+package tech.jaylu.muopenapi;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

@@ -1,4 +1,4 @@
-package io.github.jaylu.muopenapi;
+package tech.jaylu.muopenapi;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import io.muserver.ContextHandlerBuilder;
@@ -17,10 +17,10 @@ import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.github.jaylu.muopenapi.ApiDocsTest.keys;
-import static io.github.jaylu.muopenapi.ApiDocsTest.mapper;
-import static io.github.jaylu.muopenapi.ApiDocsTest.sorted;
-import static io.github.jaylu.muopenapi.ApiDocsTest.texts;
+import static tech.jaylu.muopenapi.ApiDocsTest.keys;
+import static tech.jaylu.muopenapi.ApiDocsTest.mapper;
+import static tech.jaylu.muopenapi.ApiDocsTest.sorted;
+import static tech.jaylu.muopenapi.ApiDocsTest.texts;
 import static io.muserver.ContextHandlerBuilder.context;
 import static io.muserver.Method.DELETE;
 import static io.muserver.Method.GET;

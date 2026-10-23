@@ -1,4 +1,4 @@
-package io.github.jaylu.muopenapi;
+package tech.jaylu.muopenapi;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import io.muserver.RouteHandler;
@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static io.github.jaylu.muopenapi.ApiDocsTest.keys;
-import static io.github.jaylu.muopenapi.ApiDocsTest.mapper;
-import static io.github.jaylu.muopenapi.ApiDocsTest.sorted;
+import static tech.jaylu.muopenapi.ApiDocsTest.keys;
+import static tech.jaylu.muopenapi.ApiDocsTest.mapper;
+import static tech.jaylu.muopenapi.ApiDocsTest.sorted;
 import static io.muserver.Method.CONNECT;
 import static io.muserver.Method.GET;
 import static io.muserver.Method.POST;
